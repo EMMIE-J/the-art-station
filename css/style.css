@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header-bg{
+    background-image: url('../images/artbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+}
+
+#logo{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 20pt;
+    color: white;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 2px 26px;
+    border-radius: 4rem;
+    border: 2px solid white;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;  
+}
+
+.header-text{
+    font-size: 15px;
+    color: white;
+}
+
+.about-section{
+    margin: 10rem 10rem;
+    display: flex;
+}
+
+.images{
+    display: flex;
+    gap: 2rem;
+    width: 50%;
+}
+
+.about-text{
+    width: 50%;
+    font-size: 20px;
+}
+
+.about-text h5{
+    font-size: 20px;
+    color: orangered;
+}
+
+.about-btn{
+    border: none;
+    background-color: orchid;
+    padding: 12px 25px;
+    border-radius: 2rem;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.about-btn:hover{
+    background-color: orchid;
+}
+
+.serve-section{
+    margin: 6rem 10rem;
+}
+
+.serve-images{
+    display: flex;
+    gap: 30px;
+}
+
+.serve-images h2{
+    font-size: 20px;
+}
+
+.serve-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.image a{
+    text-decoration: none;
+    color: black;
+}
+.image img{
+    width: 100%;
+}

@@ -5,7 +5,7 @@ body{
 
 
 #header-bg{
-    background-image: url('../images/artbackground.jpg');
+    background-image: url('../images/flat-lay-stationery-art-items.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,10 +60,23 @@ body{
     display: flex;
 }
 
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
 .images{
     display: flex;
     gap: 2rem;
     width: 50%;
+}
+
+.parent img{
+    width: 100%;
 }
 
 .about-text{
@@ -114,4 +127,17 @@ body{
 }
 .image img{
     width: 100%;
+}
+
+.border {
+    border-style:double ;
+    background-color: orangered;
+   text-align: center;
+    margin: 2rem auto;
+}
+
+.serve-text{
+    /* border: double; */
+    text-align: center;
+    margin: 2rem auto;
 }

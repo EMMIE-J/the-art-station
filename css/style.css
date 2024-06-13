@@ -1,11 +1,11 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
-}
+} */
 
 
 #header-bg{
-    background-image: url('../images/background-4.jpg');
+    background-image: url('../images/background-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,8 @@ body{
     text-decoration: none;
     font-family: fantasy;
     font-size: 20pt;
-    color: white;
+    color: rgb(228, 10, 10);
+    font-family: fantasy;
 }
 
 #nav-links{
@@ -35,7 +36,9 @@ body{
 
 .nav-item{
     text-decoration: none;
-    color: white;
+    color: beige;
+    
+    
 }
 
 .btn{
@@ -51,11 +54,14 @@ body{
 }
 
 .header-text{
-    margin-top: 20%;
-    font-size: 15px;
+    margin-top: 10%;
+    font-size: 20px;
     color: black;
     background-color: white ;
     margin-right: 50%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .about-section{
@@ -83,28 +89,29 @@ body{
     width: 100%;
 }
 
-.about-text{
+/* .about-text{
     width: 50%;
     font-size: 20px;
-}
+} */
 
-.about-text h5{
+/* .about-text h5{
     font-size: 20px;
     color: orangered;
-}
+} */
 
 .about-btn{
     border: none;
     background-color: white;
-    padding: 12px 25px;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 20px;
-    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    font-size: 15px;
+    color: orangered;
+    
 }
 
 .about-btn:hover{
-    background-color: orchid;
+    background-color: orange;
 }
 
 .serve-section{

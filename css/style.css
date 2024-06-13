@@ -127,9 +127,18 @@
     font-size: 20px;
 }
 
+.fav{
+border: 0.2px solid rgba(255, 68, 0, 0.295);
+padding: 1rem;
+/* outline:  0.5px solid orangered; */
+border-radius: 10px;
+}
+
+
 .serve-btn{
     text-align: center;
     margin-top: 2rem;
+    text-decoration: none;
 }
 
 .image a{
@@ -145,6 +154,8 @@
     background-color: orangered;
    text-align: center;
     margin: 2rem auto;
+    padding-top: 2%;
+    color: white;
 }
 
 .serve-text{
@@ -153,6 +164,6 @@
     margin: 2rem auto;
 }
 
-.serve_text h5{
+/* .serve_text h5{
     text-align: ce
-}
+} */

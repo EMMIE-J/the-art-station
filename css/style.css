@@ -1,7 +1,8 @@
-/* body{
+body{
     margin: 0;
     padding: 0;
-} */
+    
+}
 
 
 #header-bg{
@@ -17,15 +18,20 @@
 
 #logo{
     text-decoration: none;
-    font-family: fantasy;
-    font-size: 20pt;
-    color: rgb(228, 10, 10);
-    font-family: fantasy;
+    font-family: cursive;
+    font-size: 15pt;
+    color: orangered;
+    
 }
 
 #nav-links{
     display: flex;
     justify-content: space-between;
+    border: none ;
+    background-color: white;
+    padding: 10px;
+    
+
 }
 
 #ul-list{
@@ -36,7 +42,8 @@
 
 .nav-item{
     text-decoration: none;
-    color: beige;
+    color: orangered;
+    
     
     
 }
@@ -45,12 +52,12 @@
     background-color: transparent;
     padding: 2px 26px;
     border-radius: 4rem;
-    border: 2px solid white;
+    border: 2px solid orangered;
 }
 
 .btn a{
     text-decoration: none;
-    color: white;  
+    color: orangered;  
 }
 
 .header-text{
@@ -62,6 +69,7 @@
     text-align: center;
     padding-bottom: 5%;
     padding-top: 5%;
+    font-family: cursive;
 }
 
 .about-section{
@@ -155,6 +163,7 @@ border-radius: 10px;
    text-align: center;
     margin: 2rem auto;
     padding-top: 2%;
+    padding-bottom: 2%;
     color: white;
 }
 
